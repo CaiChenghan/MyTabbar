@@ -55,9 +55,9 @@
     //标题
     _myLabel = [[UILabel alloc]init];
     _myLabel.backgroundColor = [UIColor clearColor];
-    _myLabel.textColor = [UIColor colorWithHexString:@"#676A74"];
+    _myLabel.textColor = [UIColor grayColor];
     _myLabel.textAlignment = NSTextAlignmentCenter;
-    _myLabel.font = [UIFont systemFontOfSize:11];
+    _myLabel.font = [UIFont boldSystemFontOfSize:12];
     _myLabel.text = @"探索";
     [self addSubview:_myLabel];
 }
